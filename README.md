@@ -49,8 +49,8 @@ After selecting your app, a menu of options appears on the left. You will choose
 <img src="https://i.imgur.com/MHx7ZTp.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+A new page will open, and you will be able to see a unique IP address that your app was assigned:  <br/>
+<img src="https://i.imgur.com/B4hKa5S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
