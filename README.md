@@ -45,8 +45,8 @@ Once you have created your app you can either select "Go to Resource" or you can
 <img src="https://i.imgur.com/BzsA80B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After selecting your app, a menu of options appears on the left. You will choose the "Custom domains" option:  <br/>
+<img src="https://i.imgur.com/MHx7ZTp.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
