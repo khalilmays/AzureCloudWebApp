@@ -23,26 +23,26 @@ I then created and stored SSL certificates in Azure’s Key Vault, and bound the
 
 <p align="center">
 Select "App Services" in the Azure search field: <br/>
-<img src="https://i.imgur.com/k7h6mdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/k7h6mdZ.png" height="80%" width="80%" alt="App Services"/>
 <br />
 <br />
 Select "Create" to create your app:  <br/>
-<img src="https://i.imgur.com/PCaXvLb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PCaXvLb.png" height="80%" width="80%" alt="Create app"/>
 <br />
 <br />
 Selected these options for the "Basics" tab: <br/>
-<img src="https://i.imgur.com/EszCcBi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EszCcBi.png" height="80%" width="80%" alt="Basics"/>
 <br />
 <br />
 Selcted these options for the App Service Plan:  <br/>
-<img src="https://i.imgur.com/WJK5EeZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WJK5EeZ.png" height="80%" width="80%" alt="App service plan"/>
 <br />
 <br />
-Leave the default options for every other tab and select the "Review + Create" tab.
+Leave the default options for every other tab and select the "Review + Create" tab. Then you will select the create button at the bottom of your screen to create your web app.
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once you have created your app you can either select "Go to Resource" or you can go to the app by clicking "App Services" in the Azure search bar. Then would select your app from this page:  <br/>
+<img src="https://i.imgur.com/BzsA80B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
