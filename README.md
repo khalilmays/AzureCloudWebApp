@@ -19,23 +19,26 @@ I then created and stored SSL certificates in Azure’s Key Vault, and bound the
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2>Walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select "App Services" in the Azure search field: <br/>
+<img src="https://i.imgur.com/k7h6mdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select "Create" to create your app:  <br/>
+<img src="https://i.imgur.com/PCaXvLb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Selected these options for the "Basics" tab: <br/>
+<img src="https://i.imgur.com/EszCcBi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Selcted these options for the App Service Plan:  <br/>
+<img src="https://i.imgur.com/WJK5EeZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Leave the default options for every other tab and select the "Review + Create" tab.
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
