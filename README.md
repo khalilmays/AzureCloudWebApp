@@ -51,6 +51,11 @@ After selecting your app, a menu of options appears on the left. You will choose
 <br />
 A new page will open, and you will be able to see a unique IP address that your app was assigned:  <br/>
 <img src="https://i.imgur.com/B4hKa5S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Your domain is now accessible on the internet and it owuld begin with the name you chose ".azurewebsites.net"]
+<br />
+<br />
 </p>
 
 <!--
