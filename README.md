@@ -64,6 +64,11 @@ To get into Azure CLoud Shell, you click the shell logo located inthe tool bar: 
 <img src="https://i.imgur.com/0sHCBtm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+I configured the web app with the container mentioned above by running the following command:  <br/>
+az webapp config container set --name bobswebapp --resource-group redteamRG --docker-custom-image-name cyberxsecurity/project1-apachewebserver --enable-app-service-storage-t  <br/> 
+
+<br />
+<br />
 </p>
 
 <!--
