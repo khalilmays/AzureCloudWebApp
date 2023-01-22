@@ -56,8 +56,12 @@ A new page will open, and you will be able to see a unique IP address that your 
 Your domain is now accessible on the internet and it begins with the name you chose ".azurewebsites.net"
 <br />
 <br />
-This is the docker container that I deployed to my web app:  <br/>
+This is the docker container that I deployed to my web app using Azure Cloud Shell:  <br/>
 <img src="https://i.imgur.com/C0QSchr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+To get into Azure CLoud Shell, you click the shell logo located inthe tool bar:  <br/>
+<img src="https://i.imgur.com/0sHCBtm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
