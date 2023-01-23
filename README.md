@@ -110,7 +110,7 @@ Select "+ Create" from the key vault page to make your key vault: <br/>
 <br />
 <br />
 On the "create key vault" tab you need to make sure you select your subscirption and resource groups, key vault name , region, pricing, and for this project I left the other options (Access Policy, Networking, and Tags) as default: <br/>
-<img src="https://i.imgur.com/OIhfkbN.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/OIhfkbN.png" height="40%" width="40%" alt="Blog Site"/> <br />
 <br />
 <br />
 
