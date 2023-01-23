@@ -65,13 +65,23 @@ To get into Azure CLoud Shell, you click the shell logo located inthe tool bar: 
 <br />
 <br />
 I configured the web app with the container mentioned above by running the following command:  <br/>
-az webapp config container set --name <name of your webapp> --resource-group <name of your resource group> --docker-custom-image-name <container name> --enable-app-service-storage-t  <br/>
+az webapp config container set --name (name of your webapp) --resource-group (name of your resource group) --docker-custom-image-name cyberxsecurity/project1-apachewebserver --enable-app-service-storage-t  <br/>
 <br />
 <br />
 After pressing enter you should see this output: <br />
+<img src="https://i.imgur.com/syypJCY.png" height="80%" width="80%" alt="Output"/>
+<br />
+<br />
+To verify that the container has been added correctly, make sure to run the fdollowing command to show the container for your webapp: <br />
+az webapp config container show --name (name of your webapp) --resource-group (name of your resourece group) <br />
+<br />
+<br />
+Next, visit the domain that you chose to see if your container was successfully deployed. The webpage should like like this: <br />
+<img src="https://i.imgur.com/uT6TQzD.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
 
-<br />
-<br />
+ 
 </p>
 
 <!--
