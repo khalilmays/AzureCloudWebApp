@@ -117,6 +117,12 @@ Next create a self-signed certificate using OpenSSL. Go back and select the "SSH
 <img src="https://i.imgur.com/PabIV2k.png" height="80%" width="80%" alt="Blog Site"/> <br />
 <br />
 <br />
+From the command line, enter the follwing command: <br/>
+openssl req -x509 -sha256 -nodes- -days 365 -newkey rsa:2048 -keyout (privatekeyname.key) -out (certificatename.crt) -addtext "extendedKeyUsage=serverAuth" <br/>
+The command should look similar to this: <br/>
+<img src="https://i.imgur.com/8lT5HvZ.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
 </p>
 
 <!--
