@@ -131,6 +131,10 @@ The options chose do the following: <br/>
 - <b>-keyout project1-key.key: The outputted name of the private key.</b>
 - <b>-out project-cert.crt: The outputted name of the certificate. </b>
 - <b>-addtext "extendedKeyUsage=serverAuth": Indicates how a public key can be used.</b>
+<br/>
+<br/> 
+After pressing enter, you will need to answer the following questions: <br/>
+<img src="https://i.imgur.com/N46x2NA.png" height="80%" width="80%" alt="Blog Site"/> <br />
 </p>
 
 <!--
