@@ -161,6 +161,19 @@ You can view your new PFX certificate by running the "ls" command:
 <img src="https://i.imgur.com/j50ubyA.png" height="80%" width="80%" alt="13"/> <br />
 <br />
 <br />
+Download the PFX certificate using the follwoing steps: <br/>
+
+- <b>(1) Click the "Upload/Download" icon in the toolbar of the cloud shell.</b>
+- <b>(2) Select "Download".</b>
+- <b>(3) Enter the name of your PFX certificate in the "Download a file" window.</b>
+- <b>(4) Click "Download."</b>
+<br/>
+<img src="https://i.imgur.com/POUEIel.png" height="80%" width="80%" alt="14"/> <br />
+<br/>
+<br/>
+Next, import the certificate to Azure. Return to the Azure portal and select "Key Vaults", then select the key vault you created in the previous part. Then from the key vault, select the "Certificates" and then "+ Generate/Import,": <br/>
+<img src="https://i.imgur.com/iO26098.png" height="80%" width="80%" alt="15"/> <br />
+
 </p>
 
 <!--
