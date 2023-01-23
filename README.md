@@ -19,7 +19,7 @@ I then created and stored SSL certificates in Azure’s Key Vault, and bound the
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Walk-through:</h2>
+<h2>Walk-Through Creating Webapp:</h2>
 
 <p align="center">
 Select "App Services" in the Azure search field: <br/>
@@ -80,8 +80,24 @@ Next, visit the domain that you chose to see if your container was successfully 
 <img src="https://i.imgur.com/uT6TQzD.png" height="80%" width="80%" alt="Blog Site"/> <br />
 <br />
 <br />
+To customize your webpage you have to access the HTML pages of your webapp. To do so return to your webapp and select "SSH" then select "Go": <br />
+<img src="https://i.imgur.com/cceC0GI.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
+Once you're in the container, you need to change directories to the location of the HTML files: <br />
+<img src="https://i.imgur.com/xJPkGSo.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
+Once you're in the container, you need to change directories to the location of the HTML files: <br />
+<img src="https://i.imgur.com/xJPkGSo.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
+To customize your webpage as you want, run the following command: <br/>
+index.html <br/>
+<br/>
+<br/>
+<h2>Walk-Through Securing Webapp:</h2>
 
- 
 </p>
 
 <!--
