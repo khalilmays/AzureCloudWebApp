@@ -123,6 +123,14 @@ The command should look similar to this: <br/>
 <img src="https://i.imgur.com/8lT5HvZ.png" height="80%" width="80%" alt="Blog Site"/> <br />
 <br />
 <br />
+The options chose do the following: <br/>
+- <b>-x509: Indicates for OpenSSL to create an SSL certificate.</b>
+- <b>-sha256: Uses the sha256 hasing alogrithm.</b>
+- <b>-days 365: States the certificate will be valid for one year.</b>
+- <b>-newkey rsa:2048: Uses a 2048-bit RSA key.</b>
+- <b>-keyout project1-key.key: The outputted name of the private key.</b>
+- <b>-out project-cert.crt: The outputted name of the certificate. </b>
+- <b>-addtext "extendedKeyUsage=serverAuth": Indicates how a public key can be used.</b>
 </p>
 
 <!--
