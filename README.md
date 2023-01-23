@@ -77,19 +77,19 @@ az webapp config container show --name (name of your webapp) --resource-group (n
 <br />
 <br />
 Next, visit the domain that you chose to see if your container was successfully deployed. The webpage should like like this: <br />
-<img src="https://i.imgur.com/uT6TQzD.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/uT6TQzD.png" height="80%" width="80%" alt="12"/> <br />
 <br />
 <br />
 To customize your webpage you have to access the HTML pages of your webapp. To do so return to your webapp and select "SSH" then select "Go": <br />
-<img src="https://i.imgur.com/cceC0GI.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/cceC0GI.png" height="80%" width="80%" alt="11"/> <br />
 <br />
 <br />
 Once you're in the container, you need to change directories to the location of the HTML files: <br />
-<img src="https://i.imgur.com/xJPkGSo.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/xJPkGSo.png" height="80%" width="80%" alt="10"/> <br />
 <br />
 <br />
 Once you're in the container, you need to change directories to the location of the HTML files: <br />
-<img src="https://i.imgur.com/xJPkGSo.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/xJPkGSo.png" height="80%" width="80%" alt="9"/> <br />
 <br />
 <br />
 To customize your webpage as you want, run the following command: <br/>
@@ -102,25 +102,25 @@ Azure gives you a trusted certificate for your domain, but to analyze the differ
 <br/>
 <br/>
 First you will need to acccess Azure key vaults, do so by searching in key vault at the top of the page: <br/>
-<img src="https://i.imgur.com/SzrM9K6.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/SzrM9K6.png" height="80%" width="80%" alt="7"/> <br />
 <br />
 <br />
 Select "+ Create" from the key vault page to make your key vault: <br/>
-<img src="https://i.imgur.com/r4Fv21x.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/r4Fv21x.png" height="80%" width="80%" alt="7"/> <br />
 <br />
 <br />
 On the "create key vault" tab you need to make sure you select your subscirption and resource groups, key vault name , region, pricing, and for this project I left the other options (Access Policy, Networking, and Tags) as default. Then, select "Review + Create" to create your key vault: <br/>
-<img src="https://i.imgur.com/OIhfkbN.png" height="40%" width="40%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/OIhfkbN.png" height="40%" width="40%" alt="6"/> <br />
 <br />
 <br />
 Next create a self-signed certificate using OpenSSL. Go back and select the "SSH" button again: <br/>
-<img src="https://i.imgur.com/PabIV2k.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/PabIV2k.png" height="80%" width="80%" alt="5"/> <br />
 <br />
 <br />
 From the command line, enter the follwing command: <br/>
 openssl req -x509 -sha256 -nodes- -days 365 -newkey rsa:2048 -keyout (privatekeyname.key) -out (certificatename.crt) -addtext "extendedKeyUsage=serverAuth" <br/>
 The command should look similar to this: <br/>
-<img src="https://i.imgur.com/8lT5HvZ.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/8lT5HvZ.png" height="80%" width="80%" alt="4"/> <br />
 <br />
 <br />
 The options chose do the following: <br/>
@@ -134,11 +134,29 @@ The options chose do the following: <br/>
 <br/>
 <br/> 
 After pressing enter, you will need to answer the following questions: <br/>
-<img src="https://i.imgur.com/N46x2NA.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/N46x2NA.png" height="80%" width="80%" alt="1"/> <br />
 <br/>
 <br/>
 Next, view the newly create key (.key) and certificate (.crt) by using the "ls" command: <br/>
-<img src="https://i.imgur.com/KdXLSn8.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<img src="https://i.imgur.com/KdXLSn8.png" height="80%" width="80%" alt="2"/> <br />
+<br />
+<br />
+Next create a PFX format certificate because that's how Azure requires theirs. Run the following command: <br />
+openssl pkcs12 -export -out (new_certificatename.pfx) -inkey project1-key.key -in project1-cert.crt <br/>
+<img src="https://i.imgur.com/ZFVePql.png" height="80%" width="80%" alt="3"/> <br />
+<br/>
+<br/>
+The options chose do the following: <br/>
+
+- <b>pkcs12: Indicates for OpenSSL to create a PFX certificate.</b>
+- <b>-export -out project1-cert.fpfx: States what to name the PFX file.</b>
+- <b>-inkey projec1-key.key: This is the current private key that you are importing.</b>
+- <b>-in project1-cert.crt: This is the current certificate that you are importing.</b>
+</b>
+</b>
+Next a prompt will appear asking for a password to encrypt your PFX key. Put in a password nad make sure not to forget it. <br/>
+</b>
+</b>
 </p>
 
 <!--
