@@ -135,6 +135,10 @@ The options chose do the following: <br/>
 <br/> 
 After pressing enter, you will need to answer the following questions: <br/>
 <img src="https://i.imgur.com/N46x2NA.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br/>
+<br/>
+Next, view the newly create key (.key) and certificate (.crt) by using the "ls" command: <br/>
+<img src="https://i.imgur.com/KdXLSn8.png" height="80%" width="80%" alt="Blog Site"/> <br />
 </p>
 
 <!--
