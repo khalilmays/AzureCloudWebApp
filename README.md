@@ -96,7 +96,7 @@ To customize your webpage as you want, run the following command: <br/>
 index.html <br/>
 <br/>
 <br/>
-<h2>Walk-Through Securing Webapp:</h2>
+<h2>Walk-Through Self-Signed Certificate:</h2>
 
 Azure gives you a trusted certificate for your domain, but to analyze the difference I created a self-signed certificate.
 <br/>
@@ -192,6 +192,9 @@ Select the "Create" icon to upload the certificate. <br/>
 Now go to the webpage and your browser should notify you that your connection the website is not secure due to the certificate being self-signed. <br/>
 <img src="https://i.imgur.com/u9wKRlr.png" height="80%" width="80%" alt="18"/> <br />
 <img src="https://i.imgur.com/QfNdxYv.png" height="80%" width="80%" alt="19"/> <br />
+<br/>
+<br/>
+<h2>Walk-Through Security:</h2>
 
 </p>
 
