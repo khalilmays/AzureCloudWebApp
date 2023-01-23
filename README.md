@@ -173,6 +173,25 @@ Download the PFX certificate using the follwoing steps: <br/>
 <br/>
 Next, import the certificate to Azure. Return to the Azure portal and select "Key Vaults", then select the key vault you created in the previous part. Then from the key vault, select the "Certificates" and then "+ Generate/Import,": <br/>
 <img src="https://i.imgur.com/iO26098.png" height="80%" width="80%" alt="15"/> <br />
+<br/>
+<br/>
+On the "Create a certificate" page,select the following: <br/>
+
+
+- <b>Method of Certificate: Import</b>
+- <b>Certificate Name: project1PFX-cert</b>
+- <b>Upload Certificate File: Select your PFX certificate (check the downloads folder)/b>
+- <b>Password: Enter the password that you encrypted your certificate with</b>
+<img src="https://i.imgur.com/gKzvN7s.png" height="80%" width="80%" alt="16"/> <br />
+<br/>
+<br/>
+Select the "Create" icon to upload the certificate. <br/>
+<img src="https://i.imgur.com/2VtSDLQ.png" height="80%" width="80%" alt="17"/> <br />
+<br/>
+<br/>
+Now go to the webpage and your browser should notify you that your connection the website is not secure due to the certificate being self-signed. <br/>
+<img src="https://i.imgur.com/u9wKRlr.png" height="80%" width="80%" alt="18"/> <br />
+<img src="https://i.imgur.com/QfNdxYv.png" height="80%" width="80%" alt="19"/> <br />
 
 </p>
 
