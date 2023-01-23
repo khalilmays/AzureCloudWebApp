@@ -98,6 +98,22 @@ index.html <br/>
 <br/>
 <h2>Walk-Through Securing Webapp:</h2>
 
+Azure gives you a trusted certificate for your domain, but to analyze the difference I created a self-signed certificate.
+<br/>
+<br/>
+First you will need to acccess Azure key vaults, do so by searching in key vault at the top of the page: <br/>
+<img src="https://i.imgur.com/SzrM9K6.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
+Select "+ Create" from the key vault page to make your key vault: <br/>
+<img src="https://i.imgur.com/r4Fv21x.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
+On the "create key vault" tab you need to make sure you select your subscirption and resource groups, key vault name , region, pricing, and for this project I left the other options (Access Policy, Networking, and Tags) as default: <br/>
+<img src="https://i.imgur.com/OIhfkbN.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
+
 </p>
 
 <!--
