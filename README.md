@@ -42,30 +42,33 @@ Leave the default options for every other tab and select the "Review + Create" t
 <br />
 <br />
 Once you have created your app you can either select "Go to Resource" or you can go to the app by clicking "App Services" in the Azure search bar. Then would select your app from this page:  <br/>
-<img src="https://i.imgur.com/BzsA80B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BzsA80B.png" height="80%" width="80%" alt="select app"/>
 <br />
 <br />
 After selecting your app, a menu of options appears on the left. You will choose the "Custom domains" option:  <br/>
-<img src="https://i.imgur.com/MHx7ZTp.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MHx7ZTp.png" height="30%" width="30%" alt="custom domains"/>
 <br />
 <br />
 A new page will open, and you will be able to see a unique IP address that your app was assigned:  <br/>
-<img src="https://i.imgur.com/B4hKa5S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/B4hKa5S.png" height="80%" width="80%" alt="IP address"/>
 <br />
 <br />
 Your domain is now accessible on the internet and it begins with the name you chose ".azurewebsites.net"
 <br />
 <br />
 This is the docker container that I deployed to my web app using Azure Cloud Shell:  <br/>
-<img src="https://i.imgur.com/C0QSchr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C0QSchr.png" height="80%" width="80%" alt="Docker Container"/>
 <br />
 <br />
 To get into Azure CLoud Shell, you click the shell logo located inthe tool bar:  <br/>
-<img src="https://i.imgur.com/0sHCBtm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0sHCBtm.png" height="80%" width="80%" alt="Azure Cloud Shell"/>
 <br />
 <br />
 I configured the web app with the container mentioned above by running the following command:  <br/>
-az webapp config container set --name bobswebapp --resource-group redteamRG --docker-custom-image-name cyberxsecurity/project1-apachewebserver --enable-app-service-storage-t  <br/> 
+az webapp config container set --name <name of your webapp> --resource-group <name of your resource group> --docker-custom-image-name <container name> --enable-app-service-storage-t  <br/>
+<br />
+<br />
+After pressing enter you should see this output: <br />
 
 <br />
 <br />
