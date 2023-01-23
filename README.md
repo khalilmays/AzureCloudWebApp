@@ -109,11 +109,14 @@ Select "+ Create" from the key vault page to make your key vault: <br/>
 <img src="https://i.imgur.com/r4Fv21x.png" height="80%" width="80%" alt="Blog Site"/> <br />
 <br />
 <br />
-On the "create key vault" tab you need to make sure you select your subscirption and resource groups, key vault name , region, pricing, and for this project I left the other options (Access Policy, Networking, and Tags) as default: <br/>
+On the "create key vault" tab you need to make sure you select your subscirption and resource groups, key vault name , region, pricing, and for this project I left the other options (Access Policy, Networking, and Tags) as default. Then, select "Review + Create" to create your key vault: <br/>
 <img src="https://i.imgur.com/OIhfkbN.png" height="40%" width="40%" alt="Blog Site"/> <br />
 <br />
 <br />
-
+Next create a self-signed certificate using OpenSSL. Go back and select the "SSH" button again: <br/>
+<img src="https://i.imgur.com/PabIV2k.png" height="80%" width="80%" alt="Blog Site"/> <br />
+<br />
+<br />
 </p>
 
 <!--
