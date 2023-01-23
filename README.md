@@ -157,6 +157,10 @@ The options chose do the following: <br/>
 Next a prompt will appear asking for a password to encrypt your PFX key. Put in a password nad make sure not to forget it. <br/>
 </b>
 </b>
+You can view your new PFX certificate by running the "ls" command:
+<img src="https://i.imgur.com/j50ubyA.png" height="80%" width="80%" alt="13"/> <br />
+<br />
+<br />
 </p>
 
 <!--
