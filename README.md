@@ -208,7 +208,8 @@ You will return to the Azure Front Door page and then click "OK": <br/>
 <img src="https://i.imgur.com/BGvXaDt.png" height="80%" width="80%" alt="22"/> <br />
 <br/>
 <br/>
-
+To verify that your Front Door is working, select "Networking" again and then Azure Front Door. You should see the following prompt:
+<img src="https://i.imgur.com/KwnXE9z.png" height="80%" width="80%" alt="23"/> <br />
 </p>
 
 <!--
