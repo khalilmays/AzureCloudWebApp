@@ -180,7 +180,7 @@ On the "Create a certificate" page,select the following: <br/>
 
 - <b>Method of Certificate: Import</b>
 - <b>Certificate Name: project1PFX-cert</b>
-- <b>Upload Certificate File: Select your PFX certificate (check the downloads folder)/b>
+- <b>Upload Certificate File: Select your PFX certificate (check the downloads folder)</b>
 - <b>Password: Enter the password that you encrypted your certificate with</b>
 <img src="https://i.imgur.com/gKzvN7s.png" height="80%" width="80%" alt="16"/> <br />
 <br/>
