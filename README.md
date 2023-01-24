@@ -210,8 +210,41 @@ You will return to the Azure Front Door page and then click "OK": <br/>
 <br/>
 To verify that your Front Door is working, select "Networking" again and then Azure Front Door. You should see the following prompt:
 <img src="https://i.imgur.com/KwnXE9z.png" height="80%" width="80%" alt="23"/> <br />
-</p>
+<br/>
+<br/>
+Next, set up the Web Application Firewall (WAF). To do that search "webapp" or "firewall" in the Azure search bar, the WAF that was created previously should be shown:<br/>
+<img src="https://i.imgur.com/wesmQ8d.png" height="80%" width="80%" alt="24"/> <br />
+<br/>
+<br/>
+There will be options on the left side of the screen, select the one that says "Managed Rules": <br/>
+<img src="https://i.imgur.com/QmHyRE5.png" height="80%" width="80%" alt="25"/> <br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
 <!--
  ```diff
 - text in red
