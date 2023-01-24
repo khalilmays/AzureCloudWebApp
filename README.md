@@ -196,6 +196,19 @@ Now go to the webpage and your browser should notify you that your connection th
 <br/>
 <h2>Walk-Through Security:</h2>
 
+First create an Azure Front Door instance. Do so by navigating to the app you created, then select the "Networking" option followed by "Azure Front Door": <br/>
+<img src="https://i.imgur.com/0qs9DHT.png" height="80%" width="80%" alt="20"/> <br />
+<br/>
+<br/>
+Next select the "create new" option under "Front Door Instance." Name your Front Door, then leave all of the settings default and click the "add" button. <br/>
+<img src="https://i.imgur.com/bWzGF8C.png" height="80%" width="80%" alt="21"/> <br />
+<br/>
+<br/>
+You will return to the Azure Front Door page and then click "OK": <br/>
+<img src="https://i.imgur.com/BGvXaDt.png" height="80%" width="80%" alt="22"/> <br />
+<br/>
+<br/>
+
 </p>
 
 <!--
