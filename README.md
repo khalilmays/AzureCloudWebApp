@@ -15,10 +15,6 @@ I then created and stored SSL certificates in Azure’s Key Vault, and bound the
 - <b>Docker</b>
 - <b>OpenSSL</b>
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
 <h2>Walk-Through Creating Webapp:</h2>
 
 <p align="center">
